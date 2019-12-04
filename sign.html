@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header_menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+                <figure>
+                    <img src="images/logo/2.png" alt="logo-image">
+                </figure>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Management
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Fees Structure</a>
+                            <a class="dropdown-item" href="#">Management Activity</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link btn btn-outline-primary" href="sign.html"> sign in</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <section class="register-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Sign In</a>
+                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Login</a>
+            
+                         </div>
+                </div>
+                <div class="col-lg-9">
+                        <div class="tab-content sign-page" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                        <form class="border rounded p-5">
+                                                <h4 class="text-center mb-4">Sign Up </h4>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlSelect1">Example select</label>
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="user1">Username</label>
+                                                <input type="text" class="form-control" id="user1" aria-describedby="emailHelp"
+                                                    placeholder="Enter Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="passwprd1">Password</label>
+                                                <input type="text" class="form-control" id="passwprd1" aria-describedby="emailHelp"
+                                                    placeholder="Enter Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp" placeholder="Enter email">
+                                            </div>
+                                            <button type="submit" class="btn btn-outline-primary">Submit</button>
+                                        </form>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            
+                                        <form class="border rounded p-5">
+                                                <h4 class="text-center mb-4">Login</h4>
+                                            <div class="form-group">    
+                                                <label for="user1">Username</label>
+                                                <input type="text" class="form-control" id="user1" aria-describedby="emailHelp"
+                                                    placeholder="Enter Name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="passwprd1">Password</label>
+                                                <input type="text" class="form-control" id="passwprd1" aria-describedby="emailHelp"
+                                                    placeholder="Enter Name">
+                                            </div>
+                    
+                                            <button type="submit" class="btn btn-outline-success">Submit</button>
+                                        </form>
+                                </div>
+                                
+                              </div>    
+                </div>
+            </div>
+        </div>
+            
+                 
+    </section>
+    <script src="js/slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
